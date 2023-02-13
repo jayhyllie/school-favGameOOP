@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fave Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Fave Game</h1>
+        <form action="">
+            <section class="form__games">
+                <section class="form__games--game"><label for="title">Title</label><input type="text" id="title"></section>
+                <section class="form__games--game"><label for="creator">Creator</label><input type="text" id="creator">
+                </section>
+                <section class="form__games--game"><label for="console">Console</label><input type="text" id="console">
+                </section>
+                <section class="form__games--game"><label for="from">From</label><input type="text" id="from"></section>
+            </section>
+            <input type="button" value="Add" id="add-game"></input>
+        </form>
+        <section>
+            <h2>Games</h2>
+            <ul class="games__container"></ul>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
